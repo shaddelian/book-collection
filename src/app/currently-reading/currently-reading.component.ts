@@ -13,7 +13,8 @@ export class CurrentlyReadingComponent implements OnInit {
   constructor() { }
 
     ngOnInit() {
-        this.ToRead = localStorage.getItem('ToRead');
+        this.ToRead = JSON.parse(localStorage.getItem('ToRead'));
+        console.log(typeof  this.ToRead)
     }
 
 

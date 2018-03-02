@@ -1,6 +1,6 @@
 <div class="wrapper">
   <h3>I am reading</h3>
-  <div class="cards" *ngFor="let item of ToRead | json">
+  <div class="cards" *ngFor="let item of ToRead">
       <div class="col-md-3">
       <a href="">
         <img [src]="item.relationships.photos.links.url">
