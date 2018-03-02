@@ -1,0 +1,15 @@
+.wrapper{
+    background-color: #0d055a;
+    padding: 10px 15px;
+}
+.cards{
+    background-color: #2d3557;
+    margin-bottom: 15px;
+    max-height: 200px;
+}
+.cards img{
+    width: 100%;
+}
+.info{
+    text-align: right;
+}
