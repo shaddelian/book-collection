@@ -14,7 +14,6 @@ export class CurrentlyReadingComponent implements OnInit {
 
     ngOnInit() {
         this.ToRead = JSON.parse(localStorage.getItem('ToRead'));
-        console.log(typeof  this.ToRead)
     }
 
 

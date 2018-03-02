@@ -1,7 +1,7 @@
 <div class="wrapper">
 <h3>My Books</h3>
   <ul>
-    <li *ngFor="let book of booksList">
+    <li *ngFor="let book of ToRead">
       <a (click)="addToRead(book)">
         <img [src]="book.relationships.photos.links.url">
       </a>

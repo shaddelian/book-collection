@@ -2,7 +2,7 @@
   <h1>Book collection</h1>
   <ul>
     <li *ngFor="let book of booksList">
-      <a *ngIf="book.relationships.photos.links.self" href="">
+      <a (click)="addToRead(book)" *ngIf="book.relationships.photos.links.self">
         <img [src]="book.relationships.photos.links.url">
       </a>
     </li>
